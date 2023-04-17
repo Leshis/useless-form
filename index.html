@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="assets/form-icon.png" type="image/x-icon">
-    <script src="index.js" defer></script>
+    <script src="index.js" defer type="module"></script>
     <title>Useless Form</title>
 </head>
 
@@ -28,9 +28,9 @@
                     realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
                 <p>You <em>know</em> you want to.</p>
             </div>
-            <div class="form">
+            <div class="form-container">
                 <h2>Let's do this!</h2>
-                <form action="" method="post">
+                <form id="form" action="">
                     <div class="grid-wrapper">
                         <label for="firstName">FIRST NAME</label>
                         <input type="text" name="firstName" id="firstName" required placeholder="Your first name...">
@@ -59,7 +59,7 @@
 
             </div>
             <div class="form-lower">
-                <button type="submit">Create Account</button>
+                <button id="submit-btn"type="submit">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>

@@ -140,6 +140,10 @@ button:hover{
     color:  var(--button-hover);
 }
 
+.red-border{
+    border: 1px solid red;
+}
+
 @media (max-width: 550px){
     .container{
         flex-direction: column;
